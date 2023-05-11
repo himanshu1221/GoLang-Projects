@@ -22,3 +22,4 @@ In this project we will be working with the CRUD operations (Create Read Update 
 - http.ListenAndServe : Is is used to start the server at a given port using all the routes that have been declared
 - Log.Fatal : It is used to Log out the error if any
 -  w.Header().Set() : It's a method used to set HTTP headers in an HTTP response
+- mux.Vars() : It extracts the variables from the current request URL
