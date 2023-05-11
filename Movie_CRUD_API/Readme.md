@@ -2,4 +2,20 @@
 
 ## What is this project about ?
 In this project we will be working with the CRUD operations (Create Read Update Delete) where we can get all the movies,get them by an unique id,create a new movie,update new movie & Delete a movie 
-* We are not using any Database we are using structs and slices to perform operations 
+* We are not using any Database we are using structs and slices to perform operations
+
+## Dependencies
+- encoding/json : This is used to eencode data into JSON when we send it to any API testing 
+- fmt : This is used to print out stuff
+- log : This is used to log out the error
+- math/rand : It used to generate random number to give id to the movies 
+- net/http : It is used to create a server
+- strconv : It is used to convert numbers to strings
+- github.com/gorilla/mux" : External library provides functionalities for matching routes, serving static files, serving single-page applications (SPAs), middleware, handling CORS requests, and testing handlers
+
+## Topics I have Learnt
+
+- Struct : It is like an Object in Javascript/Java 
+- Pointer : pointer is a variable that stores the address of an object stored in memory
+- Slice : Slices are similar to arrays, but are more powerful and flexible
+- mux.NewRouter() : It allows you to create a router that will apply a set of matches to all routes you register with it
