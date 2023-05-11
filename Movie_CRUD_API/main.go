@@ -64,7 +64,7 @@ func getMovie(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	for _, item := range movies {
 		if item.ID == params["id"] {
-			json.NewEncoder(w).Encode(movies)
+			json.NewEncoder(w).Encode(item)
 			return
 		}
 	}
