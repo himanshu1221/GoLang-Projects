@@ -25,3 +25,4 @@ In this project we will be working with the CRUD operations (Create Read Update 
 - `mux.Vars()` : It extracts the variables from the current request URL
 - `json.NewEncoder().Encode()` : It is a function that encodes the specified value to JSON format and writes it to the specified io.Writer
 - `json.NewDecoder().Decode()` : It is a common way to decode JSON data from an HTTP request body.
+- `...` : is the ellipsis operator, which unpacks the elements of a slice as individual arguments.
