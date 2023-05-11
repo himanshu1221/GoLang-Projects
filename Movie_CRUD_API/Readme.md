@@ -2,7 +2,7 @@
 
 ## What is this project about ?
 In this project we will be working with the CRUD operations (Create Read Update Delete) where we can get all the movies,get them by an unique id,create a new movie,update new movie & Delete a movie 
-* We are not using any Database we are using structs and slices to perform operations
+```We are not using any Database we are using structs and slices to perform operations```
 
 ## Dependencies
 - encoding/json : This is used to eencode data into JSON when we send it to any API testing 
