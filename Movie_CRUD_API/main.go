@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"log"
+	"net/http"
 
 	"github.com/gorilla/mux"
 )
@@ -14,7 +16,7 @@ type Movie struct {
 }
 
 type Director struct {
-	FistName string `json:"firstname"`
+	Fistname string `json:"firstname"`
 	Lastname string `json:"lastname"`
 }
 
@@ -22,10 +24,19 @@ var movies []Movie
 
 func main() {
 	fmt.Println("Welcome to movie API")
+
 	r := mux.NewRouter()
+
+	movies = append(movies, Movie{ID: "1", Isbn: "435", Title: "Fast And Furious", Director: &Director{Fistname: "Vin Diesel", Lastname: "Diesel"}})
+	movies = append(movies, Movie{ID: "2", Isbn: "1246", Title: "Need For Speed", Director: &Director{Fistname: "Thomas", Lastname: "Shelby"}})
+
 	r.HandleFunc("/movies", getMovies).Methods("GET")
 	r.HandleFunc("/movies/{id}", getMovie).Methods("GET")
 	r.HandleFunc("/movies", createMovie).Methods("POST")
 	r.HandleFunc("/movies/{id}", updateMovie).Methods("PUT")
 	r.HandleFunc("/movies/{id}", deleteMovie).Methods("DELETE")
+
+	fmt.Println("Starting Server at PORT :8000")
+
+	log.Fatal(http.ListenAndServe(":8000", r))
 }

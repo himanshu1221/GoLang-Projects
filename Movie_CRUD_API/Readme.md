@@ -11,7 +11,7 @@ In this project we will be working with the CRUD operations (Create Read Update 
 - math/rand : It used to generate random number to give id to the movies 
 - net/http : It is used to create a server
 - strconv : It is used to convert numbers to strings
-- github.com/gorilla/mux" : External library provides functionalities for matching routes, serving static files, serving single-page applications (SPAs), middleware, handling CORS requests, and testing handlers
+- github.com/gorilla/mux" : External library provides functionalities for matching routes, serving static files, serving single-page applications, middleware, handling CORS requests, and testing handlers
 
 ## Topics I have Learnt
 
@@ -19,3 +19,6 @@ In this project we will be working with the CRUD operations (Create Read Update 
 - Pointer : pointer is a variable that stores the address of an object stored in memory
 - Slice : Slices are similar to arrays, but are more powerful and flexible
 - mux.NewRouter() : It allows you to create a router that will apply a set of matches to all routes you register with it
+- http.ListenAndServe : Is is used to start the server at a given port using all the routes that have been declared
+- Log.Fatal : It is used to Log out the error if any
+-  
