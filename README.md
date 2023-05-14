@@ -5,9 +5,8 @@ This is a collection of my Golang projects. Each project is contained in its own
 ## Projects
 
 Here's a list of the projects included in this repository:
-
-### Comming soon
-
+* [GoLang Server](https://github.com/himanshu1221/GoLang-Projects/tree/master/GoLang%20Server)
+* [Movie CRUD API](https://github.com/himanshu1221/GoLang-Projects/tree/master/Movie_CRUD_API)
 ## Getting Started
 
 To get started with any of the projects in this repository, follow the instructions in the project's README file. Each project has its own set of instructions for running, testing, and using the project.
