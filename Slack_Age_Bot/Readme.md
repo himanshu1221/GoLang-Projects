@@ -16,3 +16,10 @@ In this project we will be building a slack bot to calculate age using slack API
 - `WebSocket Protocol` - The WebSocket Protocol enables two-way communication between a client
   running untrusted code in a controlled environment to a remote host
   that has opted-in to communications from that code.
+- `.env` - Learnt how to setup .env
+- `slacker.NewClient` - It creates a new client using the Slack API
+- `CommandEvents` - CommandEvents returns read only command events channel
+
+## Resources
+- (Dontenv Setup)[https://golangbyexample.com/load-env-fiie-golang/]
+- (Slacker Documentation)[https://pkg.go.dev/github.com/shomali11/slacker#section-readme]
