@@ -6,7 +6,8 @@ In this project we will be building a slack bot to calculate age using slack API
 
 ## Dependencies
 
-- `github.com/shomali11/slacker` -
+- `github.com/shomali11/slacker` - Built on top of the Slack API github.com/slack-go/slack, Slacker is a low-friction framework for creating Slack Bots.
+- `github.com/joho/godotenv` - gotenv package in golang can be used to load .env or environment file in golang
 
 ## Topics I have Learnt
 

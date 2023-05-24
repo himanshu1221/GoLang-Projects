@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"log"
+
+	"github.com/joho/godotenv"
+)
 
 func main() {
-	fmt.Println("New Project")
+	err := godotenv.Load("local.env")
+	if err != nil {
+		log.Fatalf("Some error occured. Err: %s", err)
+	}
 }
