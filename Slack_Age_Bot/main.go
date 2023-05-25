@@ -11,6 +11,7 @@ import (
 	"github.com/shomali11/slacker"
 )
 
+// Doubt in this function
 func printCommandEvents(analyticsChannel <-chan *slacker.CommandEvent) {
 	for event := range analyticsChannel {
 		fmt.Println("Command Events")
