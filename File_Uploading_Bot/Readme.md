@@ -16,6 +16,6 @@ In this project we will be building a slack bot to calculate age using slack API
 
 
 ## Resources
-- (Dontenv Setup)[https://golangbyexample.com/load-env-fiie-golang/]
-- (Slack-Go Documentation)[https://pkg.go.dev/github.com/slack-go/slack]
-- (Slack API)[https://api.slack.com/]
+- [Dontenv Setup](https://golangbyexample.com/load-env-fiie-golang/)
+- [Slack-Go Documentation](https://pkg.go.dev/github.com/slack-go/slack)
+- [Slack API](https://api.slack.com/)
