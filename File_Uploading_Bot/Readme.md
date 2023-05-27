@@ -1,8 +1,8 @@
-# Slack Age Bot
+# Slack File Uploading Bot
 
 ## What is this project about ?
 
-In this project we will be building a slack bot to calculate age using slack API
+In this project we will be building a slack bot to upload files using slack API
 
 ## Dependencies
 
